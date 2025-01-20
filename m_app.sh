@@ -78,9 +78,10 @@ install_supermon() {
 	sed -i '/\[functions\]/a SMUPDATE=cmd,/usr/local/sbin/supermonASL_latest_update \n' "$CONF_FILE"
 
 	echo "Setting up cron job..."
+	DISABLE_MAIL="MAILTO=\"\""
 	CRON_COMMENT="# Supermon 7.4 updater crontab entry"
 	CRON_JOB="0 3 * * * /var/www/html/supermon/astdb.php cron"
-	( crontab -l 2>/dev/null; echo "$CRON_COMMENT"; echo "$CRON_JOB" ) | crontab -
+	( crontab -l 2>/dev/null; echo "$DISABLE_MAIL"; echo "$CRON_COMMENT"; echo "$CRON_JOB" ) | crontab -
 	echo "Cron job set."
 
 	echo "Upgradeable Supermon 7.4 install complete."

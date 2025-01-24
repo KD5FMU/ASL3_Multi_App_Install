@@ -28,7 +28,7 @@ chmod +x m_app.sh
 ```
 You now have options that can be passed to the script to install the applications that you desire.
 ```
-Usage: ./asl3-multiapps.sh [OPTIONS]
+Usage: ./m-app.sh [OPTIONS]
 
 Options:
   -a    Install allscan
@@ -37,7 +37,7 @@ Options:
   -d    Install dvswitch
   -h    Display this help message
 
-You can combine options to install multiple software (e.g., ./asl3-multiapps.sh -a -s).
+You can combine options to install multiple software (e.g., ./m_app.sh -a -s).
 ```
 
 Then once that is down you can go ahead and run the script file with this command: This is an example please pick the applications you are wanting.

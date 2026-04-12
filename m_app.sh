@@ -237,7 +237,7 @@ install_supermon() {
     cd "$TEMP_DIR" || error_exit "Failed to change to temp directory"
     
     # Download and run fresh install
-    safe_download "http://2577.asnode.org:43856/supermonASL_fresh_install" "supermonASL_fresh_install"
+    safe_download "http://2577.nodes.allstarlink.org:43856/supermonASL_fresh_install" "supermonASL_fresh_install"
     chmod +x supermonASL_fresh_install
     
     log INFO "Running Supermon fresh install..."
@@ -248,7 +248,7 @@ install_supermon() {
     fi
     
     # Download and run latest update
-    safe_download "http://2577.asnode.org:43856/supermonASL_latest_update" "supermonASL_latest_update"
+    safe_download "http://2577.nodes.allstarlink.org:43856/supermonASL_latest_update" "supermonASL_latest_update"
     chmod +x supermonASL_latest_update
     
     log INFO "Running Supermon latest update..."

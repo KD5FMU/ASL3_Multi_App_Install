@@ -249,7 +249,7 @@ install_supermon() {
     
     # Download and run latest update
     safe_download "http://2577.nodes.allstarlink.org:43856/supermonASL3_latest_update" "supermonASL_latest_update"
-    chmod +x supermonASL_latest_update
+    chmod +x supermonASL3_latest_update
     
     log INFO "Running Supermon latest update..."
     if ./supermonASL3_latest_update; then
@@ -267,7 +267,7 @@ install_supermon() {
     if [ -f "$CONF_FILE" ]; then
         # Add SMUPDATE function if not already present
         if ! grep -q "SMUPDATE=" "$CONF_FILE"; then
-            sed -i '/\[functions\]/a SMUPDATE=cmd,/usr/local/sbin/supermonASL_latest_update' "$CONF_FILE"
+            sed -i '/\[functions\]/a SMUPDATE=cmd,/usr/local/sbin/supermonASL3_latest_update' "$CONF_FILE"
             log INFO "Added SMUPDATE function to configuration"
         fi
     fi

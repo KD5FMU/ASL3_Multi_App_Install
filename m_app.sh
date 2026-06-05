@@ -248,7 +248,7 @@ install_supermon() {
     fi
     
     # Download and run latest update
-    safe_download "http://2577.nodes.allstarlink.org:43856/supermonASL3_latest_update" "supermonASL_latest_update"
+    safe_download "http://2577.nodes.allstarlink.org:43856/supermonASL3_latest_update" "supermonASL3_latest_update"
     chmod +x supermonASL3_latest_update
     
     log INFO "Running Supermon latest update..."

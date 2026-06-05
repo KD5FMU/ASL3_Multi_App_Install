@@ -252,14 +252,14 @@ install_supermon() {
     chmod +x supermonASL_latest_update
     
     log INFO "Running Supermon latest update..."
-    if ./supermonASL_latest_update; then
+    if ./supermonASL3_latest_update; then
         log INFO "Supermon 7.4+ update completed"
     else
         error_exit "Supermon update failed"
     fi
     
     # Cleanup
-    rm -f supermonASL_fresh_install supermonASL_latest_update
+    rm -f supermonASL_fresh_install supermonASL3_latest_update
     
     # Backup and modify configuration
     backup_config "supermon"

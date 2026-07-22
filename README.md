@@ -1,4 +1,10 @@
-![MAPI Logo](https://github.com/KD5FMU/ASL3_Multi_App_Install/blob/main/MAIS.png)
+<p align="center">
+  <img
+    src="images/asl3-multi-app-installer-banner.png"
+    alt="ASL3 Multi-App Installer"
+    width="100%"
+  />
+</p>
 # >> Now Compatible with Bookworm and Trixie Installs <<
 
 # AllStarLink Multiple Application Install Script

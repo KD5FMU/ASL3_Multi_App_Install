@@ -2,9 +2,9 @@
 # >> Now Compatible with Bookworm and Trixie Installs <<
 
 # AllStarLink Multiple Application Install Script
-This is an enhanced script file that will help install AllScan, DvSwitch Server, SkywarnPlus, and Supermon 7.4 Fresh Install and the Upgradable Version. I mostly utilize this script to install these Apps once I setup a new ASL3 Install.
+This is an enhanced script file that will help install AllScan, DvSwitch Server, SkywarnPlus, and Supermon 8.0 Fresh Install and the Upgradable Version. I mostly utilize this script to install these Apps once I setup a new ASL3 Install.
 
-You now have the option to install SkywarnPlus, DVSwitch Server, AllScan and Supermon 7.4+ Upgrade version onto your AllStarLink version 3 node. As of this date (1/11/2025) This has been tested on the Raspberry Pi Appliance version of ASL 3.
+You now have the option to install SkywarnPlus, DVSwitch Server, AllScan and Supermon 8.0+ Upgrade version onto your AllStarLink version 3 node. As of this date (1/11/2025) This has been tested on the Raspberry Pi Appliance version of ASL 3.
 
 This has also been tested on Debian 12 versions.
 
@@ -92,7 +92,7 @@ This script will install:
 - **AllScan** - Dashboard for AllStarLink monitoring
 - **DVSwitch Server** - Digital Voice switching (works with PHP 8.2+)
 - **SkywarnPlus** - Weather alert integration
-- **Supermon 7.4+** - Enhanced monitoring interface
+- **Supermon 8.0+** - Enhanced monitoring interface
 
 ## 🔍 Logging & Troubleshooting
 
